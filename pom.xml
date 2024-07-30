@@ -78,13 +78,14 @@
 			<artifactId>extentreports</artifactId>
 			<version>${extentreports-version}</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok-maven-plugin -->
-<dependency>
-    <groupId>org.projectlombok</groupId>
-    <artifactId>lombok-maven-plugin</artifactId>
-    <version>1.18.20.0</version>
-   
-</dependency>
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.34</version>
+		
+		</dependency>
+
 
 		<dependency>
 			<groupId>io.qameta.allure</groupId>
@@ -139,7 +140,7 @@
 
 
 				</configuration>
-			
+
 			</plugin>
 
 
